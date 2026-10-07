@@ -1,0 +1,21 @@
+# Workspace
+sharedWorkspaceLockfile: true
+
+# Seguridad en la cadena de dependencias
+minimumReleaseAge: 4320
+dangerouslyAllowAllBuilds: false
+strictDepBuilds: true
+enablePrePostScripts: false
+
+# Resolución de versiones
+resolutionMode: "time-based"
+
+# Integridad y consistencia
+verifyStoreIntegrity: true
+preferFrozenLockfile: true
+lockfile: true
+
+linkWorkspacePackages: true
+nodeLinker: hoisted
+allowBuilds:
+  esbuild: true
